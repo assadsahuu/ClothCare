@@ -1,0 +1,12 @@
+/* In cart.css */
+@keyframes draw-check {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .animate-draw-check {
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: draw-check 0.6s ease-out forwards;
+  }
